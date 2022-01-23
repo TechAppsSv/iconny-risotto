@@ -1,0 +1,75 @@
+{
+	"name": "iconny-risotto-dev",
+	"productName": "Iconny Risotto Dev",
+	"version": "22.0.0",
+	"description": "The next generation for Iconny",
+	"main": "src/munich/init/init.js",
+	"scripts": {
+		"pack": "build --dir",
+		"dist": "build",
+		"build-linux": "electron-builder --linux --publish always",
+		"build-win": "electron-builder --win --publish always",
+		"build-mac": "electron-builder --mac --publish always",
+		"package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=build/icon.icns --prune=true --out=release-mac-app",
+		"package-win": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=win32 --arch=ia32 --icon=build/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Electron Tutorial App\"",
+		"start": "electron src/init.js",
+		"create-installer-mac": "electron-installer-dmg ./release-builds/Electron\\ tutorial\\ app-darwin-x64/Electron\\ tutorial\\ app.app iconny-mac --out=release-builds --overwrite --icon=build/icon.icns"
+	},
+	"author": "Kaihatsu Software <kaihatsusoftware@gmail.com>",
+	"license": "MIT",
+	"build": {
+		"appId": "com.kaihatsu.iconny",
+		"productName": "Iconny Browser ",
+		"win": {
+			"target": [
+				"nsis",
+				"zip"
+			],
+			"icon": "build/icon.ico"
+		},
+		"mac": {
+			"category": "productivity",
+			"target": [
+				"dmg"
+			],
+			"icon": "build/icon.icns"
+		},
+		"linux": {
+			"category": "Browser",
+			"target": [
+				"AppImage",
+				"snap"
+			],
+			"icon": "build/background.png"
+		},
+		"publish": [
+			{
+				"provider": "generic",
+				"url": "https://gitlab.com"
+			}
+		],
+		"nsis": {
+			"oneClick": "false",
+			"allowToChangeInstallationDirectory": "true",
+			"perMachine": "true"
+		}
+	},
+	"dependencies": {
+		"@cliqz/adblocker-electron": "^1.20.3",
+		"@electron/remote": "^2.0.1",
+		"color.js": "^1.2.0",
+		"cross-fetch": "^3.0.6",
+		"electron-context-menu": "^2.5.2",
+		"electron-navigation": "^6.6.6",
+		"electron-tabs": "^0.15.0",
+		"jquery": "^3.6.0",
+		"requirejs": "^2.3.6",
+		"url-regex": "^5.0.0",
+		"uuid": "^8.3.2"
+	},
+	"devDependencies": {
+		"electron": "^16.0.7",
+		"electron-builder": "^22.14.5",
+		"electron-packager": "^15.4.0"
+	}
+}
