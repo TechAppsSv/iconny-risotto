@@ -7,7 +7,7 @@
 #
 ### First Step
 #### You choose version Risotto
-[Version Minified (Not include node_modules)](#)
+[Version Minified (Not include node_modules)](https://github.com/TechAppsSv/iconny-risotto/releases/tag/universal-1)
 ##
 [Version Complete coming soon (Include node_modules)](#)
 ##

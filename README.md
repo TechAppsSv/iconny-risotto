@@ -23,7 +23,7 @@
  - Super user access
 #
 ## Steps
-[Windows Guide](compilewindows.md)
+[Windows Guide](compile/windows.md)
 ##
 [Mac Guide](compile/mac.md)
 ##
