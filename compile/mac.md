@@ -7,7 +7,7 @@
 #### You choose version Risotto
 [Version Minified (Not include node_modules)](#)
 ##
-[Version Complete (Includ node_modules)](#)
+[Version Complete coming soon (Include node_modules)](#)
 ##
 ### Or git clone
 ~~~
