@@ -4,30 +4,9 @@
 ## Guide for Windows
 #
 # Install
-#
-### First Step
-#### You choose version Risotto
-[Version Minified (Not include node_modules)](https://github.com/TechAppsSv/iconny-risotto/releases/tag/universal-1)
-##
 [Version Complete coming soon (Include node_modules)](#)
-##
-### Or git clone
-~~~
-git clone https://github.com/TechAppsSv/iconny-risotto.git
-~~~
-#
-##
-### If you choose version minified or use git clone is need install node modules
-#### Step 1: Decompress the Zip
-##
-#### Step 2: Go to folder and open CMD or Windows Terminal(please use CMD in Windows Terminal)
-~~~
-cd iconny-risotto
-npm i
-~~~
-#
-##
-### If you choose complete version is not necessary install node modules, now you learn how to use Iconny Risotto
+
+
 #
 # Use
 #

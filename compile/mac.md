@@ -4,31 +4,15 @@
 ## Guide for Mac
 #
 ### First Step
-#### You choose version Risotto
-[Version Minified (Not include node_modules)](https://github.com/TechAppsSv/iconny-risotto/releases/tag/universal-1)
+
 ##
-[Version Complete coming soon (Include node_modules)](#)
-##
-### Or git clone
-~~~
-git clone https://github.com/TechAppsSv/iconny-risotto.git
-~~~
-#
+[Version Complete (Include node_modules)](#)
+
 # Install
 #
 
-### If you choose version minified or use git clone is need install node modules
-#### Step 1: Decompress the Zip
-##
-#### Step 2: Go to folder and open your terminal Mac app in your folder
-~~~
-cd iconny-risotto
-npm i
-~~~
-#
-##
-### If you choose complete version is not necessary install node modules, now you learn how to use Iconny Risotto
-#
+
+
 # Use
 #
 # First method
@@ -55,5 +39,7 @@ chmod +x mac.sh
 #### Step 1: Go to folder and open your terminal Mac app in your folder
 ##### Use this command now every time you want to open Iconny just open the terminal in the folder and run the command
 ~~~
+npm i
+npm audit fix
 npm start
 ~~~

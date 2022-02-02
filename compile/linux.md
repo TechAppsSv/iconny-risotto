@@ -7,16 +7,16 @@
 #
 ### First Step
 #### You choose version Risotto
-[Version Minified (Not include node_modules)](https://github.com/TechAppsSv/iconny-risotto/releases/tag/universal-1)
+<!-- [Version Minified (Not include node_modules)](https://github.com/TechAppsSv/iconny-risotto/releases/tag/universal-1) -->
 ##
-[Version Complete coming soon (Include  node_modules)](#)
-##
+[Version Complete  (Include  node_modules)](https://github.com/TechAppsSv/iconny-risotto/releases/tag/linux-1)
+<!-- ##
 ### Or git clone
 ~~~
 git clone https://github.com/TechAppsSv/iconny-risotto.git
 ~~~
-#
-##
+# -->
+<!-- ##
 ### If you choose version minified or use git clone is need install node modules
 #### Step 1: Decompress the Zip
 ##
@@ -25,7 +25,7 @@ git clone https://github.com/TechAppsSv/iconny-risotto.git
 cd iconny-risotto
 npm i
 ~~~
-#
+# -->
 ##
 # First method
 
@@ -50,5 +50,7 @@ chmod +x linux.sh
 #### Step 1: Go to folder and open your terminal  app in your folder
 ##### Use this command now every time you want to open Iconny just open the terminal in the folder and run the command
 ~~~
+npm i
+npm audit fix --force
 npm start
 ~~~
