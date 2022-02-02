@@ -6,7 +6,7 @@
 ### First Step
 
 ##
-[Version Complete (Include node_modules)](#)
+[Version Complete (Include node_modules)](https://github.com/TechAppsSv/iconny-risotto/releases/tag/mac-1)
 
 # Install
 #
